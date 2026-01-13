@@ -78,7 +78,7 @@ const checkWinner= ()=>
 
             turnO=true;
 
-            break;
+            return;
         }
     }
     if(cnt===9)
